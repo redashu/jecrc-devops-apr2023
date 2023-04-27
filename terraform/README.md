@@ -52,3 +52,22 @@ aws_instance.ashu-vm1: Still creating... [20s elapsed]
 aws_instance.ashu-vm1: Creation complete after 21s [id=i-051ac3fc5b54e64f9]
 
 ```
+
+### terraform destroy 
+
+```
+PS C:\Users\Administrator\Desktop\my-terraform-cde> terraform  destroy
+aws_instance.ashu-vm1: Refreshing state... [id=i-051ac3fc5b54e64f9]
+
+Terraform used the selected providers to generate the following execution plan. Resource actions are
+indicated with the following symbols:
+  - destroy
+
+Terraform will perform the following actions:
+
+  # aws_instance.ashu-vm1 will be destroyed
+  - resource "aws_instance" "ashu-vm1" {
+      - ami                                 
+```
+
+
