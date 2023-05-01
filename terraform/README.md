@@ -70,4 +70,9 @@ Terraform will perform the following actions:
       - ami                                 
 ```
 
+## COncept of key pair in cloud 
+
+<img src="key.png">
+
+
 
