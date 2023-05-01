@@ -74,5 +74,28 @@ Terraform will perform the following actions:
 
 <img src="key.png">
 
+### Generating key pair using ssh-keygen 
+
+```
+
+PS C:\Users\Administrator> ssh-keygen.exe
+Generating public/private rsa key pair.
+Enter file in which to save the key (C:\Users\Administrator/.ssh/id_rsa):
+C:\Users\Administrator/.ssh/id_rsa already exists.
+Overwrite (y/n)? y
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in C:\Users\Administrator/.ssh/id_rsa.
+Your public key has been saved in C:\Users\Administrator/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:MhuK9p1vveaoxDzq9DstP1B/zQiQxqoCzpDQENOpB4Y administrator@EC2AMAZ-U1R5103
+The key's randomart image is:
++---[RSA 3072]----+
+|== .   . .       |
+|Eo+     =        |
+|o+     o .       |
+```
+
+
 
 
